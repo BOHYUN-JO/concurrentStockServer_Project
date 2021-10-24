@@ -2,6 +2,9 @@
 이 프로젝트에서는 concurrentStockServer를 구현한다. 동시에 수 많은 client 들이 하나의 server에 접속해 주식 거래를 진행 할 수 있게 server를 구현하는 것이 중점이다.
 이때 Readers-Writers 문제가 발생하지 않도록 Event-Based Server 방식과 Thread-Based Server 방식으로 나누어 구현한다. 
 
+# Environment
+Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-193-generic x86_64)
+
 ## project_1 : Event-Based Server
 Select() 함수를 이용한 Event-Based Server 구현. 
 
